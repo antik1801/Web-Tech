@@ -5,7 +5,7 @@
 		     <body>
 		            <h1> Donor Information</h1>
 		     </body>
-		            <form>
+		            <form action="" method="post">
 		                   <table>
 						           <tr>
 								        <td>First name*</td>
@@ -51,12 +51,12 @@
 										<td>
 										<select>
 										<option disabled="disabled" selected="selected">Select a country </option>>
-										<option>Bangladesh</option>
-										<option>Indea</option>
-										<option>England</option>
-										<option>Nepal</option>
-										<option>Switzerland</option>
-										<option>Indonesia</option>
+										<option value="1">Bangladesh</option>
+										<option value="2">Indea</option>
+										<option value="3">England</option>
+										<option value="4">Nepal</option>
+										<option value="5">Switzerland</option>
+										<option value="6">Indonesia</option>
 										</select>
 										</td>
 								   </tr>
@@ -74,12 +74,12 @@
 								   </tr>
 								   <td>Donating amounts: </td>
 					<td>
-						<input type="radio" name="Donate"> None
-						<input type="radio" name="Donate"> $50
-						<input type="radio" name="Donate"> $75
-						<input type="radio" name="Donate"> $100
-						<input type="radio" name="Donate"> $250 <br>
-						<input type="radio" name="Donate"> other
+						<input type="radio" name="Donate" value="none"> None
+						<input type="radio" name="Donate" value="50"> $50
+						<input type="radio" name="Donate" value="75"> $75
+						<input type="radio" name="Donate" value="100"> $100
+						<input type="radio" name="Donate" value="250"> $250 <br>
+						<input type="radio" name="Donate" value="other"> other
 					</td>
 					<tr>
 								        <td colspan="1" align="center">Other amounts*</td>
@@ -156,6 +156,14 @@
 									   </tr> 
 									   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		                                 <span class="icon-bar"></span>
+										 <tr>
+										    <td>Hobbies</td>
+											<td>
+											   <input type="checkbox" name="hobbies[]" value="movies">Movies</td>
+											   <input type="checkbox" name="hobbies[]" value="music">Music</td>
+											   <input type="checkbox" name="hobbies[]" value="Progrraming">Programing</td>
+											</td>
+										</tr>
 										</table>
 		             </form>
 </html>
