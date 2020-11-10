@@ -1,3 +1,26 @@
+<?php
+
+   $gender="";
+   $err_gender="";
+   $hobbies="";
+   $err_hobbies="";
+   $has_error=false;
+   if(isset($_POST["register"])){
+   $var = $_POST["hobbies"];
+   echo "<Pre>";
+   var_dump($var);
+   if(isset($_POST["gender"]))
+   {
+   $err_gender="Gender required";
+   $has_error=true;
+   }
+   else{
+   $gender=$_POST["gender"];
+   }
+   if(!isset($_POST["hobbies"]))
+   }
+
+?>
 <html>
       <head>
 	        <title>Donate Required Information</title>
@@ -16,6 +39,14 @@
 										<td><input type="text">
 								   </tr>
 								   <tr>
+								        <td>Gender</td>
+										<td><input type="radio" name="gender" value="Male">Male</td>
+								   </tr><td><input type="radio" name="gender" value="Female">Female</td>
+								   <tr>
+								        <td>company</td>
+										<td><input type="text">
+								   </tr>
+								    <tr>
 								        <td>company</td>
 										<td><input type="text">
 								   </tr>

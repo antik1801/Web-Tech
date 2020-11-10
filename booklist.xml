@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <name>Reza</name>
+    <password>123bB</password>
+    <username>Reza</username>
+    <gender>Male</gender>
+    <email>R@gmail.com</email>
+    <phone>0181234566</phone>
+    <city>Chittagong</city>
+  </user>
+  <user>
+    <name>Rakib</name>
+    <password>123aA</password>
+    <username>Rakib</username>
+    <gender>Male</gender>
+    <email>Ra@gmail.com</email>
+    <phone>01834567853</phone>
+    <city>Dhaka</city>
+  </user>
+ </users>
